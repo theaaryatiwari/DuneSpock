@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, rgb(31, 207, 104), rgb(200, 250, 62));
+}
+.inputBox{
+    padding-top: 2vh;
+}
+.messagebox{
+    border-radius: 8px;
+    border-color: rgb(31, 207, 104);
+    border-style: dashed;
+    height: 5vh;
+    width:35vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+.buttonsend{
+    margin-left:10px;
+    height: 4vh;
+    border-radius: 10px;
+    border-color: black;
+    border-style: dashed;
+    width:7vh;
+    background-image: linear-gradient(to bottom right, rgb(31, 207, 104), rgb(200, 250, 62));
+}
+.whiteSQR{
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    width: 60vh;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.commspace{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5vh;
+    gap: 10px;
+    overflow-y: auto;
+    margin-top: 3vh;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom right, rgb(14, 113, 241), rgb(11, 207, 241));
+    height: 60vh;
+    width: 54vh;
+}
+.sent,.recieve{
+    display: inline-block;
+    padding: 9px;
+    max-width: 20vh;
+    background-color: white;
+    border-radius: 20px;
+    word-wrap: break-word;
+}
+.sent{
+    align-self: flex-end;
+}
+.recieve{
+    align-self: flex-start;
+}
+.namesent,.namerecieve{
+    padding: 0.4vh;
+    font-size: 10px;
+}
+.namerecieve{
+    color: rgb(2, 2, 134);
+}
+.namesent{
+    color: rgb(10, 99, 1);
+}
